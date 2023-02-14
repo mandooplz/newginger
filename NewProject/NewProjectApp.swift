@@ -12,6 +12,8 @@ struct NewProjectApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+        }.commands {
+            SidebarCommands()
         }
     }
 }

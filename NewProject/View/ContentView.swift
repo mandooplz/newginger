@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selection : Int = 1
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationSplitView {
+            Sidebar(selection: $selection)
+        } detail: {
+            Detail(selection: selection)
         }
-        .padding()
     }
 }
 
