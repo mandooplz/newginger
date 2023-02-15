@@ -22,6 +22,15 @@
 		CE87B8BD299BACB1000B0C31 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8BC299BACB1000B0C31 /* Recipe.swift */; };
 		CE87B8BF299BACC3000B0C31 /* StartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8BE299BACC3000B0C31 /* StartManager.swift */; };
 		CE87B8C1299BACCD000B0C31 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8C0299BACCD000B0C31 /* Ingredient.swift */; };
+		CE87B8C7299BB2BE000B0C31 /* ElementGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8C6299BB2BE000B0C31 /* ElementGroup.swift */; };
+		CE87B8C9299BB2C5000B0C31 /* RecipeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8C8299BB2C5000B0C31 /* RecipeGroup.swift */; };
+		CE87B8CC299BB890000B0C31 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8CB299BB890000B0C31 /* Method.swift */; };
+		CE87B8D2299BC6E3000B0C31 /* IndexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8D1299BC6E3000B0C31 /* IndexManager.swift */; };
+		CE87B8D4299BC8D1000B0C31 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8D3299BC8D1000B0C31 /* Unit.swift */; };
+		CE87B8D6299BC8D8000B0C31 /* ElementUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8D5299BC8D8000B0C31 /* ElementUnit.swift */; };
+		CE87B8D8299BD081000B0C31 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8D7299BD081000B0C31 /* NetworkManager.swift */; };
+		CE87B8DB299BD168000B0C31 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8DA299BD168000B0C31 /* Endpoint.swift */; };
+		CE87B8DF299BD726000B0C31 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8DE299BD726000B0C31 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +51,15 @@
 		CE87B8BC299BACB1000B0C31 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		CE87B8BE299BACC3000B0C31 /* StartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartManager.swift; sourceTree = "<group>"; };
 		CE87B8C0299BACCD000B0C31 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		CE87B8C6299BB2BE000B0C31 /* ElementGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementGroup.swift; sourceTree = "<group>"; };
+		CE87B8C8299BB2C5000B0C31 /* RecipeGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeGroup.swift; sourceTree = "<group>"; };
+		CE87B8CB299BB890000B0C31 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		CE87B8D1299BC6E3000B0C31 /* IndexManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexManager.swift; sourceTree = "<group>"; };
+		CE87B8D3299BC8D1000B0C31 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		CE87B8D5299BC8D8000B0C31 /* ElementUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementUnit.swift; sourceTree = "<group>"; };
+		CE87B8D7299BD081000B0C31 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CE87B8DA299BD168000B0C31 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		CE87B8DE299BD726000B0C31 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 				CE1F6990299B611C0030B21D /* NewProjectApp.swift */,
 				CE87B8A5299BABD2000B0C31 /* View */,
 				CE87B8A6299BABD9000B0C31 /* Model */,
+				CE87B8CA299BB4B7000B0C31 /* Resources */,
 				CE1F6994299B611C0030B21D /* Assets.xcassets */,
 				CE1F6996299B611C0030B21D /* NewProject.entitlements */,
 				CE1F6997299B611C0030B21D /* Preview Content */,
@@ -108,14 +127,11 @@
 		CE87B8A6299BABD9000B0C31 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CE87B8B2299BAC84000B0C31 /* VendorManager.swift */,
-				CE87B8B4299BAC96000B0C31 /* VendorData.swift */,
-				CE87B8B6299BACA2000B0C31 /* EGroupManager.swift */,
-				CE87B8B8299BACA8000B0C31 /* RGroupManager.swift */,
-				CE87B8BA299BACAE000B0C31 /* Element.swift */,
-				CE87B8BC299BACB1000B0C31 /* Recipe.swift */,
-				CE87B8BE299BACC3000B0C31 /* StartManager.swift */,
-				CE87B8C0299BACCD000B0C31 /* Ingredient.swift */,
+				CE87B8D9299BD12B000B0C31 /* Network */,
+				CE87B8C4299BB0AD000B0C31 /* Start */,
+				CE87B8C3299BB098000B0C31 /* EGroup */,
+				CE87B8C5299BB0BD000B0C31 /* RGroupManager */,
+				CE87B8C2299BB093000B0C31 /* Vendor */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -156,6 +172,65 @@
 				CE87B8AE299BAC49000B0C31 /* Detail.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		CE87B8C2299BB093000B0C31 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CE87B8B2299BAC84000B0C31 /* VendorManager.swift */,
+				CE87B8B4299BAC96000B0C31 /* VendorData.swift */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		CE87B8C3299BB098000B0C31 /* EGroup */ = {
+			isa = PBXGroup;
+			children = (
+				CE87B8B6299BACA2000B0C31 /* EGroupManager.swift */,
+				CE87B8C6299BB2BE000B0C31 /* ElementGroup.swift */,
+				CE87B8BA299BACAE000B0C31 /* Element.swift */,
+			);
+			name = EGroup;
+			sourceTree = "<group>";
+		};
+		CE87B8C4299BB0AD000B0C31 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				CE87B8BE299BACC3000B0C31 /* StartManager.swift */,
+				CE87B8D1299BC6E3000B0C31 /* IndexManager.swift */,
+				CE87B8CB299BB890000B0C31 /* Method.swift */,
+				CE87B8BC299BACB1000B0C31 /* Recipe.swift */,
+				CE87B8C0299BACCD000B0C31 /* Ingredient.swift */,
+				CE87B8D3299BC8D1000B0C31 /* Unit.swift */,
+				CE87B8D5299BC8D8000B0C31 /* ElementUnit.swift */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		CE87B8C5299BB0BD000B0C31 /* RGroupManager */ = {
+			isa = PBXGroup;
+			children = (
+				CE87B8B8299BACA8000B0C31 /* RGroupManager.swift */,
+				CE87B8C8299BB2C5000B0C31 /* RecipeGroup.swift */,
+			);
+			name = RGroupManager;
+			sourceTree = "<group>";
+		};
+		CE87B8CA299BB4B7000B0C31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE87B8D9299BD12B000B0C31 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE87B8D7299BD081000B0C31 /* NetworkManager.swift */,
+				CE87B8DA299BD168000B0C31 /* Endpoint.swift */,
+				CE87B8DE299BD726000B0C31 /* Request.swift */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,15 +306,24 @@
 				CE1F6993299B611C0030B21D /* ContentView.swift in Sources */,
 				CE87B8C1299BACCD000B0C31 /* Ingredient.swift in Sources */,
 				CE87B8AD299BAC38000B0C31 /* Sidebar.swift in Sources */,
+				CE87B8D4299BC8D1000B0C31 /* Unit.swift in Sources */,
+				CE87B8D2299BC6E3000B0C31 /* IndexManager.swift in Sources */,
 				CE87B8B1299BAC5C000B0C31 /* Vendor.swift in Sources */,
 				CE87B8B7299BACA2000B0C31 /* EGroupManager.swift in Sources */,
+				CE87B8DB299BD168000B0C31 /* Endpoint.swift in Sources */,
 				CE87B8BB299BACAE000B0C31 /* Element.swift in Sources */,
+				CE87B8C7299BB2BE000B0C31 /* ElementGroup.swift in Sources */,
+				CE87B8D6299BC8D8000B0C31 /* ElementUnit.swift in Sources */,
 				CE87B8AF299BAC49000B0C31 /* Detail.swift in Sources */,
+				CE87B8CC299BB890000B0C31 /* Method.swift in Sources */,
+				CE87B8D8299BD081000B0C31 /* NetworkManager.swift in Sources */,
 				CE87B8B9299BACA8000B0C31 /* RGroupManager.swift in Sources */,
+				CE87B8DF299BD726000B0C31 /* Request.swift in Sources */,
 				CE87B8B5299BAC96000B0C31 /* VendorData.swift in Sources */,
 				CE1F6991299B611C0030B21D /* NewProjectApp.swift in Sources */,
 				CE87B8BD299BACB1000B0C31 /* Recipe.swift in Sources */,
 				CE87B8BF299BACC3000B0C31 /* StartManager.swift in Sources */,
+				CE87B8C9299BB2C5000B0C31 /* RecipeGroup.swift in Sources */,
 				CE87B8B3299BAC84000B0C31 /* VendorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
