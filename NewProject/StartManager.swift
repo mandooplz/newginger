@@ -9,8 +9,10 @@ import Foundation
 import AppKit
 
 final class StartManager : ObservableObject {
+    static var shared = StartManager()
+    
     // 1. 프로퍼티
-    @Published var recipes : [Recipe] = []
+    @Published var recipes : [Recipe] = recipeSample
     @Published var ingredients : [Ingredient] = []
     @Published var methods : [Method] = []
     
@@ -27,6 +29,9 @@ final class StartManager : ObservableObject {
     var unitSet : Set<Unit> {
         // Ingredient에서 UnitSet 추출
         return [Unit(unitId: 1, unit: "")]
+    }
+    var referenceSet : Set<RecipeReference> {
+        return [RecipeReference(name: "")]
     }
     
     // 2. JSON 준비
@@ -115,3 +120,17 @@ final class StartManager : ObservableObject {
         
     }
 }
+
+
+// 샘플 데이터
+var recipeSample : [Recipe] = [
+    Recipe(recipe_name: "김치찌개", category: "찌개류", yield: 4, reference: "1001레시피"),
+    Recipe(recipe_name: "어묵조림", category: "조림류", yield: 4, reference: "1001레시피"),
+    Recipe(recipe_name: "데친두부김치쌈", category: "쌈류", yield: 4, reference: "1001레시피"),
+    Recipe(recipe_name: "감자채볶음", category: "볶음류", yield: 4, reference: "1001레시피"),
+    Recipe(recipe_name: "부추겉절이", category: "김치류", yield: 4, reference: "1001레시피"),
+    Recipe(recipe_name: "청양고추강된장찌개", category: "국물류", yield: 4, reference: "1001레시피"),
+    Recipe(recipe_name: "부추무침", category: "나물 및 무침류", yield: 4, reference: "1001레시피"),
+    Recipe(recipe_name: "배추속대무침", category: "나물 및 무침류", yield: 4, reference: "1001레시피"),
+    Recipe(recipe_name: "연근칩", category: "구이류", yield: 4, reference: "1001레시피"),
+    Recipe(recipe_name: "쪽파오징어부침", category: "부침류", yield: 4, reference: "1001레시피")]

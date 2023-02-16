@@ -16,7 +16,9 @@ final class IndexManager {
     var elementBook : [String:Int] = [:]
     var unitBook : [String:Int] = [:]
     var elementUnitBook : [String:Int] = [:]
-    var packageBook : [Int:String] = [:]
+    var packageBook : [String:Int] = [:]
+    var referenceBook : [String:Int] = [:]
+    
     
     // 3. IndexManager 서버로부터 데이터 초기화
     

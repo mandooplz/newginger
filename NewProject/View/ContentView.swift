@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var selection : Int = 1
+    @State var selection : SidebarCategory = .start
     
     var body: some View {
         NavigationSplitView {

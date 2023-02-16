@@ -14,8 +14,8 @@ final class RGroupManager : ObservableObject {
     var newRecipeNum : Int { newRecipes.count }
     
     @Published var RGs : [RecipeGroup] = []
-    @Published var changedRGs : [RecipeGroup] = []
-    @Published var newRGs : [RecipeGroup] = []
+    @Published var changedRGs : [RecipeGroupLog] = []
+    @Published var newRGs : [RecipeGroupLog] = []
     
     // Recipe와 RecipeGroup 데이터를 서버에서 가져옵니다.
     func updateRecipe() { }

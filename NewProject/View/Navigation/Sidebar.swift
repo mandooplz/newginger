@@ -8,23 +8,23 @@
 import SwiftUI
 
 struct Sidebar: View {
-    @Binding var selection : Int
+    @Binding var selection : SidebarCategory
     
     var body: some View {
         List(selection: $selection){
             Section("Main") {
-                Text("Start").tag(1)
-                Text("E.Group").tag(2)
-                Text("R.Group").tag(3)
-                Text("Vendor").tag(4)
+                Text("Start").tag(SidebarCategory.start)
+                Text("E.Group").tag(SidebarCategory.egroup)
+                Text("R.Group").tag(SidebarCategory.rgroup)
+                Text("Vendor").tag(SidebarCategory.vendor)
             }
             
             Divider()
             
             Section("Info") {
-                Text("Recipes").tag(5)
-                Text("Elements").tag(6)
-                Text("Vendors").tag(7)
+                Text("Recipes").tag(SidebarCategory.recipeInfo)
+                Text("Elements").tag(SidebarCategory.elementInfo)
+                Text("Vendors").tag(SidebarCategory.vendorInfo)
             }
         }
     }
@@ -32,6 +32,6 @@ struct Sidebar: View {
 
 struct Sidebar_Previews: PreviewProvider {
     static var previews: some View {
-        Sidebar(selection: .constant(1))
+        Sidebar(selection:.constant(.start))
     }
 }

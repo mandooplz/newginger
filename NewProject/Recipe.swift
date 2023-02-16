@@ -12,13 +12,13 @@ struct Recipe : Identifiable,Codable, Hashable {
     let recipe_name : String
     let category : String
     let yield : Int
-    let reference_id : Int
+    let reference : String
     
     private enum CodingKeys : String, CodingKey {
         case id = "recipe_id"
         case recipe_name
         case category
         case yield
-        case reference_id
+        case reference
     }
 }
