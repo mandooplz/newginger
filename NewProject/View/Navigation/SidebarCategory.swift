@@ -15,4 +15,6 @@ enum SidebarCategory {
     case recipeInfo
     case elementInfo
     case vendorInfo
+    case generator
+    case calculator
 }

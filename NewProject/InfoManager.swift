@@ -7,9 +7,9 @@
 
 import Foundation
 
-final class IndexManager {
+final class InfoManager {
     // 1. 공유 프로퍼티
-    static var shared = IndexManager()
+    static var shared = InfoManager()
     
     // 2. 인덱스
     var recipeBook : [String:Int] = [:]
@@ -19,6 +19,8 @@ final class IndexManager {
     var packageBook : [String:Int] = [:]
     var referenceBook : [String:Int] = [:]
     
+    // 3. 서버로부터 가져오는 정보
+    var allRecipes : [Recipe] = []
     
     // 3. IndexManager 서버로부터 데이터 초기화
     

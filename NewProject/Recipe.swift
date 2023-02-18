@@ -7,6 +7,7 @@
 
 import Foundation
 
+// 이때의 Recipe는 레시피를 업로드하는 용도로 사용
 struct Recipe : Identifiable,Codable, Hashable {
     let id = UUID()
     let recipe_name : String

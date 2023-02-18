@@ -14,8 +14,8 @@ final class EGroupManager : ObservableObject {
     var newElementNum : Int { newElements.count }
     
     @Published var EGs : [ElementGroup] = EGSample
-    @Published var changedEGs : [ElementGroup] = []
-    @Published var newEGs : [ElementGroup] = []
+    @Published var changedEGs : [ElementGroupLog] = []
+    @Published var newEGs : [ElementGroupLog] = []
     
     func updateElement() { }
     func updateEG() { }

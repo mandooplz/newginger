@@ -21,7 +21,14 @@
 		CE1F6993299B611C0030B21D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F6992299B611C0030B21D /* ContentView.swift */; };
 		CE1F6995299B611C0030B21D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1F6994299B611C0030B21D /* Assets.xcassets */; };
 		CE1F6999299B611C0030B21D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1F6998299B611C0030B21D /* Preview Assets.xcassets */; };
+		CE2E7222299E2AAA00444F44 /* Capsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E7221299E2AAA00444F44 /* Capsule.swift */; };
+		CE313CEE299E76B700A63768 /* ElementLocationMass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE313CED299E76B700A63768 /* ElementLocationMass.swift */; };
 		CE7D8964299DE32200CBEB16 /* RecipeGroupLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D8963299DE32200CBEB16 /* RecipeGroupLog.swift */; };
+		CE7D8966299DF5B800CBEB16 /* PlanGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D8965299DF5B800CBEB16 /* PlanGenerator.swift */; };
+		CE7D8968299DF5CD00CBEB16 /* PlanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D8967299DF5CD00CBEB16 /* PlanCalculator.swift */; };
+		CE7D896A299DF5E000CBEB16 /* PlanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D8969299DF5E000CBEB16 /* PlanManager.swift */; };
+		CE7D896E299DF79E00CBEB16 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D896D299DF79E00CBEB16 /* Bridge.swift */; };
+		CE7D8970299DF86300CBEB16 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D896F299DF86300CBEB16 /* Plan.swift */; };
 		CE87B8AD299BAC38000B0C31 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8AC299BAC38000B0C31 /* Sidebar.swift */; };
 		CE87B8AF299BAC49000B0C31 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8AE299BAC49000B0C31 /* Detail.swift */; };
 		CE87B8B1299BAC5C000B0C31 /* VendorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8B0299BAC5C000B0C31 /* VendorDetail.swift */; };
@@ -36,7 +43,7 @@
 		CE87B8C7299BB2BE000B0C31 /* ElementGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8C6299BB2BE000B0C31 /* ElementGroup.swift */; };
 		CE87B8C9299BB2C5000B0C31 /* RecipeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8C8299BB2C5000B0C31 /* RecipeGroup.swift */; };
 		CE87B8CC299BB890000B0C31 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8CB299BB890000B0C31 /* Method.swift */; };
-		CE87B8D2299BC6E3000B0C31 /* IndexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8D1299BC6E3000B0C31 /* IndexManager.swift */; };
+		CE87B8D2299BC6E3000B0C31 /* InfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8D1299BC6E3000B0C31 /* InfoManager.swift */; };
 		CE87B8D4299BC8D1000B0C31 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8D3299BC8D1000B0C31 /* Unit.swift */; };
 		CE87B8D6299BC8D8000B0C31 /* ElementUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8D5299BC8D8000B0C31 /* ElementUnit.swift */; };
 		CE87B8D8299BD081000B0C31 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87B8D7299BD081000B0C31 /* NetworkManager.swift */; };
@@ -61,7 +68,14 @@
 		CE1F6994299B611C0030B21D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1F6996299B611C0030B21D /* NewProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewProject.entitlements; sourceTree = "<group>"; };
 		CE1F6998299B611C0030B21D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE2E7221299E2AAA00444F44 /* Capsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capsule.swift; sourceTree = "<group>"; };
+		CE313CED299E76B700A63768 /* ElementLocationMass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementLocationMass.swift; sourceTree = "<group>"; };
 		CE7D8963299DE32200CBEB16 /* RecipeGroupLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeGroupLog.swift; sourceTree = "<group>"; };
+		CE7D8965299DF5B800CBEB16 /* PlanGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanGenerator.swift; sourceTree = "<group>"; };
+		CE7D8967299DF5CD00CBEB16 /* PlanCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCalculator.swift; sourceTree = "<group>"; };
+		CE7D8969299DF5E000CBEB16 /* PlanManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanManager.swift; sourceTree = "<group>"; };
+		CE7D896D299DF79E00CBEB16 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		CE7D896F299DF86300CBEB16 /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
 		CE87B8AC299BAC38000B0C31 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		CE87B8AE299BAC49000B0C31 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		CE87B8B0299BAC5C000B0C31 /* VendorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorDetail.swift; sourceTree = "<group>"; };
@@ -76,7 +90,7 @@
 		CE87B8C6299BB2BE000B0C31 /* ElementGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementGroup.swift; sourceTree = "<group>"; };
 		CE87B8C8299BB2C5000B0C31 /* RecipeGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeGroup.swift; sourceTree = "<group>"; };
 		CE87B8CB299BB890000B0C31 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
-		CE87B8D1299BC6E3000B0C31 /* IndexManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexManager.swift; sourceTree = "<group>"; };
+		CE87B8D1299BC6E3000B0C31 /* InfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoManager.swift; sourceTree = "<group>"; };
 		CE87B8D3299BC8D1000B0C31 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		CE87B8D5299BC8D8000B0C31 /* ElementUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementUnit.swift; sourceTree = "<group>"; };
 		CE87B8D7299BD081000B0C31 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -159,8 +173,23 @@
 		CE7D8962299DDC5F00CBEB16 /* Plan */ = {
 			isa = PBXGroup;
 			children = (
+				CE7D896C299DF79400CBEB16 /* PlanModel */,
+				CE7D8969299DF5E000CBEB16 /* PlanManager.swift */,
+				CE7D8965299DF5B800CBEB16 /* PlanGenerator.swift */,
+				CE7D8967299DF5CD00CBEB16 /* PlanCalculator.swift */,
 			);
 			name = Plan;
+			sourceTree = "<group>";
+		};
+		CE7D896C299DF79400CBEB16 /* PlanModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE7D896D299DF79E00CBEB16 /* Bridge.swift */,
+				CE2E7221299E2AAA00444F44 /* Capsule.swift */,
+				CE7D896F299DF86300CBEB16 /* Plan.swift */,
+				CE313CED299E76B700A63768 /* ElementLocationMass.swift */,
+			);
+			name = PlanModel;
 			sourceTree = "<group>";
 		};
 		CE87B8A5299BABD2000B0C31 /* View */ = {
@@ -257,7 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				CE87B8BE299BACC3000B0C31 /* StartManager.swift */,
-				CE87B8D1299BC6E3000B0C31 /* IndexManager.swift */,
+				CE87B8D1299BC6E3000B0C31 /* InfoManager.swift */,
 				CE15DBED299CC5E4008D654F /* StartModel */,
 			);
 			name = Start;
@@ -362,11 +391,14 @@
 			files = (
 				CE1F6993299B611C0030B21D /* ContentView.swift in Sources */,
 				CE15DBEC299CC5BB008D654F /* RecipeReference.swift in Sources */,
+				CE7D8966299DF5B800CBEB16 /* PlanGenerator.swift in Sources */,
 				CE87B8C1299BACCD000B0C31 /* Ingredient.swift in Sources */,
 				CE87B8AD299BAC38000B0C31 /* Sidebar.swift in Sources */,
 				CE87B8D4299BC8D1000B0C31 /* Unit.swift in Sources */,
-				CE87B8D2299BC6E3000B0C31 /* IndexManager.swift in Sources */,
+				CE87B8D2299BC6E3000B0C31 /* InfoManager.swift in Sources */,
 				CE15DBFA299DBAB5008D654F /* Elementinfo.swift in Sources */,
+				CE7D896E299DF79E00CBEB16 /* Bridge.swift in Sources */,
+				CE7D8968299DF5CD00CBEB16 /* PlanCalculator.swift in Sources */,
 				CE15DBE7299CBF78008D654F /* Inspector.swift in Sources */,
 				CE15DBF8299DBAA6008D654F /* Recipeinfo.swift in Sources */,
 				CE15DBFE299DCA24008D654F /* ElementGroupLog.swift in Sources */,
@@ -380,18 +412,22 @@
 				CE87B8C7299BB2BE000B0C31 /* ElementGroup.swift in Sources */,
 				CE87B8D6299BC8D8000B0C31 /* ElementUnit.swift in Sources */,
 				CE87B8AF299BAC49000B0C31 /* Detail.swift in Sources */,
+				CE7D896A299DF5E000CBEB16 /* PlanManager.swift in Sources */,
 				CE87B8CC299BB890000B0C31 /* Method.swift in Sources */,
 				CE87B8D8299BD081000B0C31 /* NetworkManager.swift in Sources */,
 				CE87B8B9299BACA8000B0C31 /* RGroupManager.swift in Sources */,
+				CE313CEE299E76B700A63768 /* ElementLocationMass.swift in Sources */,
 				CE87B8DF299BD726000B0C31 /* Request.swift in Sources */,
 				CE87B8B5299BAC96000B0C31 /* VendorData.swift in Sources */,
 				CE15DBFC299DBAC0008D654F /* Vendorinfo.swift in Sources */,
+				CE7D8970299DF86300CBEB16 /* Plan.swift in Sources */,
 				CE15DBEA299CC4A1008D654F /* StartDetail.swift in Sources */,
 				CE7D8964299DE32200CBEB16 /* RecipeGroupLog.swift in Sources */,
 				CE1F6991299B611C0030B21D /* NewProjectApp.swift in Sources */,
 				CE87B8BD299BACB1000B0C31 /* Recipe.swift in Sources */,
 				CE87B8BF299BACC3000B0C31 /* StartManager.swift in Sources */,
 				CE87B8C9299BB2C5000B0C31 /* RecipeGroup.swift in Sources */,
+				CE2E7222299E2AAA00444F44 /* Capsule.swift in Sources */,
 				CE87B8B3299BAC84000B0C31 /* VendorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,9 +18,7 @@ struct RecipeGroupLog : Identifiable {
     // modification의 종류에 따라 reset 코드가 달라진다.
     var modification : Modification
     enum Modification {
-        case SCE(SCEindex : Int)
-        case EC(ECindex : Int)
-        case ECE(ECindex : Int, ECEindex: Int)
-        case EG
+        case append
+        case delegate
     }
 }

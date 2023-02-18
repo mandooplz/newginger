@@ -26,6 +26,11 @@ struct Sidebar: View {
                 Text("Elements").tag(SidebarCategory.elementInfo)
                 Text("Vendors").tag(SidebarCategory.vendorInfo)
             }
+            
+            Section("Logic") {
+                Text("Generator").tag(SidebarCategory.generator)
+                Text("Calculator").tag(SidebarCategory.calculator)
+            }
         }
     }
 }

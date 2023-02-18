@@ -27,6 +27,10 @@ struct Detail: View {
             Elementinfo()
         case .vendorInfo:
             Vendorinfo()
+        case .generator:
+            Text("PlanGenerator View 구현 예정")
+        case .calculator:
+            Text("PlanCalculator View 구현 에정")
         }
     }
 }

@@ -8,11 +8,6 @@ struct RecipeGroup : Identifiable, Codable {
     var mainCategory : String
     var subCategory : String
     
-    var ECs : [EC] = []
-    var SCEs : [SCE] = []
-}
-// ElementGroup의 Coonec
-enum RGConnection : Codable {
-    case vertical(type : String)
-    case horizontal(type : String)
+    var appended : [Recipe] = []
+    var delegated : [Recipe] = []
 }

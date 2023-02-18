@@ -70,10 +70,10 @@ final class StartManager : ObservableObject {
           }
         
         // DB에 업로드가 끝난 뒤 IndexManager를 통해 Book을 업데이트한다.
-        IndexManager.shared.fetchBook()
+        InfoManager.shared.fetchBook()
     }
     func insertIndex() {
-        let mg = IndexManager.shared
+        let mg = InfoManager.shared
         // methods에 전부 id 추가
         methods = methods.map({ m in
             var new = Method(recipe_name: m.recipe_name, number: m.number, method: m.method)
@@ -83,9 +83,9 @@ final class StartManager : ObservableObject {
         
         // ingredients에 전부 id 추가
         ingredients = ingredients.map({ i in
-            var new = Ingredient(recipe_name: i.recipe_name, position: i.position, ingredient_name: i.ingredient_name, amount: i.amount, ingredient_unit: i.ingredient_unit)
+            var new = Ingredient(recipe_name: i.recipe_name, position: i.position, element_name: i.element_name, amount: i.amount, ingredient_unit: i.ingredient_unit, unifiedMass: 0.0)
             new.recipe_id = mg.recipeBook[i.recipe_name]
-            new.element_id = mg.elementBook[i.ingredient_name]
+            new.element_id = mg.elementBook[i.element_name]
             new.element_unit_id = mg.elementUnitBook[i.ingredient_unit]
             return new
         })
